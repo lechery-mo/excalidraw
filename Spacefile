@@ -1,0 +1,15 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: excalidraw-app
+    src: .
+    engine: nodejs16
+    primary: true
+    commands:
+      - yarn install
+      - yarn build
+    include:
+      - dist
+    run: node dist/index.js
+    dev: yarn start

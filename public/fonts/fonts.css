@@ -36,3 +36,15 @@
   font-display: swap;
   font-weight: 700;
 }
+@font-face {
+  font-family: "Muyao";
+  src: url("Muyao.ttf");
+  font-display: swap;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "LXGW";
+  src: url("LXGWWenKaiGBScreenR.ttf");
+  font-display: swap;
+  font-weight: 900;
+}
